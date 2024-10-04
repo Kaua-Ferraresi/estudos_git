@@ -1,0 +1,31 @@
+#titulo {
+    color: blue;
+    text-align: center;
+}
+p#descricao {
+color: darkgreen;
+}
+p.promocao {
+    text-align: center;
+    background-color: red;
+}
+h1.promocao {
+    color: purple;
+}
+.classe-nova {
+    color: black;
+}
+p.final-pagina#rodape {
+    background-color: deeppink;
+    text-align: center;
+}
+.curso, .novo-curso {
+    background-color: mediumpurple;
+}
+.novo-curso {
+    color: gold;
+}
+.curso, .novo-curso, #contato {
+    padding: 10px;
+    border: 1px solid gray;
+}

@@ -1,0 +1,18 @@
+#titulo {
+    color: blue;
+}
+.descricao {
+    color: brown;
+}
+p {
+    color: greenyellow;
+}
+.principal article {
+    background-color: cadetblue;
+}
+main article {
+    background-color: darkred;
+}
+main, article {
+    border: 1px solid black;
+}

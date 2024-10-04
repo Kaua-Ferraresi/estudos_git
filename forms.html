@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <h2>Informações</h2>
+        <p>
+            <label for="primeiro-nome">Digite o primeiro nome:</label>
+            <input type="text" id="primeiro-nome">
+            <label for="sobrenome">DIGITE, DIGITE O SOBRENOME AGORA</label>
+            <input type="text" id="sobrenome">
+        </p>
+        <p>
+            <label>
+                DIGITE O E-MAIL:
+                <input type="email" id="email">
+            </label>
+            <label>
+                Digite o telefone por gentileza:
+                <input type="tel" id="telefone">
+            </label>
+        </p>
+        <p>
+            <label for="cor">ESCOLHA SUA cor: </label>
+            <input type="color" id="cor">
+        </p>
+        <p>
+            <label for="arquivo">Carregue seu arquivo: </label>
+            <input type="file" id="arquivo">
+        </p>
+        <label for="comentario">Deixe seu comentáriu: </label>
+        <textarea id="comentario" cols="32" rows="4"></textarea>
+        <h2>ESCOLHAS</h2>
+        <p>
+            <label for="frutas">Qual fruta é a mais forte?</label>
+            <select id="frutas">
+                <option>banana</option>
+                <option>jabuticaba</option>
+                <option>maçã</option>
+                <option>melancia</option>
+                <option>James</option>
+            </select>
+        </p>
+        <fieldset>
+            <legend>Escolha seu bichinho</legend>
+            <input type="radio" name="pet" id="dromedario">
+            <label for="dromedario">Dromedario</label>
+            <input type="radio" name="pet" id="esquilo">
+            <label for="esquilo">Esquilo</label>
+            <input type="radio" name="pet" id="magago">
+            <label for="magago">Magago gago</label>
+            <input type="radio" name="pet" id="cachorro">
+            <label for="cachorro">Cachorro</label>
+        </fieldset>
+        
+        <p>
+            <fieldset>
+                <legend>Escolha seu macaco favorito:</legend>
+                <input type="checkbox" name="mamaco" id="marcelo">
+                <label for="marcelo">Marcelo</label>
+                <input type="checkbox" name="mmaco" id="duruida">
+                <label for="duruida">Duruida</label>
+                <input type="checkbox" name="mamaco" id="magagu">
+                <label for="magagu">Magagu Gagu</label>
+                <input type="checkbox" name="mamaco" id="daciolo">
+                <label for="daciolo">Cabo Daciolo</label>
+                <input type="checkbox" name="mamaco" id="marinu">
+                <label for="marinu">Marinu</label>
+            </fieldset>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+
+</html>

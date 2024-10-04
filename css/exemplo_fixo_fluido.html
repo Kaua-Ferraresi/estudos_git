@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts fixos e fluidos</title>
+    <style>
+        .ciencia, .sistemas, .ia {
+            /* display: inline-block; */
+            border: solid 2px blueviolet;
+            padding: 10px;
+            /* width: 20%; */
+            height: 80px;
+        }
+        main {
+            border: solid 2px red;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        body {
+            margin: 0;
+        }
+        @media(min-width: 992px) {
+            .ciencia, .sistemas, .ia {
+            display: inline-block;
+            width: 20%;
+            }
+        }
+        @media(min-width: 576px) {
+            .ciencia, .sistemas, .ia {
+                background-color: aqua;
+            }
+        }
+        @media(min-width: 768px) {
+            body {
+                background-color: hotpink;
+            }
+            .ciencia, .sistemas, .ia {
+                background-color: grey;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <article class="ciencia">
+            Ciencia da Computação
+        </article>
+        <article class="sistemas">
+            Sistemas de Informação
+        </article>
+        <article class="ia">
+            Inteligência Artificial
+        </article>
+    </main>
+</body>
+</html>

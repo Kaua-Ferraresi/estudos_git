@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>heranca-seletores</title>
+    <style>
+        article p {
+            padding: 10px;
+            background-color: coral;
+        }
+        #principal p.promocao{
+            padding: 10px;
+            background-color: aqua;
+        }
+        body #principal article section p.coordenacao {
+            text-align: center;
+        }
+        main > article section > p.coordenacao {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="principal">
+        <h1 id="titulo">Portal de Cursos</h1>
+        <p id="descricao">Temos cursos em diversas áreas</p>
+        <p class="promocao">Venha conhecer nossas <strong>bolsas de estudo</strong>.</p>
+        <h4>Cursos</h4>
+        <article>
+            <p class="novo-curso">Inteligencia Artificial</p>
+            <p class="curso">Ciência da Computação</p>
+            <p class="curso">Sistemas de Informação</p>
+            <section>
+                <p class="coordenacao">Conheça nossos coordenadores</p>
+            </section>
+        </article>
+        <p class="promocao classe-nova">Faça-nos uma visita e conheça nossas <strong>bolsas de estudo</strong>.</p>
+        <p class="final-pagina" id="contato">Contato: 11 2233 4455</p>
+        <p id="rodape" class="final-pagina">&copy; 2024</p>
+    </main>
+</body>
+
+</html>

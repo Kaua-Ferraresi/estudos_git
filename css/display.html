@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+    <style>
+        p {
+            background-color: aquamarine;
+        }
+        a {
+            background-color: blueviolet;
+        }
+        footer {
+            background-color: brown;
+        }
+        button {
+            background-color: yellow;
+        }
+        .professores {
+            display: block;
+            width: 200px;
+            height: 200px;
+        }
+        .ciencia {
+            display: inline;
+        }
+        .ciencia, .sistemas {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+        .rodape {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <article id="cursos">
+    <p class="ciencia">Ciencia da Computação</p>
+    <p class="sistemas">Sistemas de Informação</p>
+    <a href="#">Conheça-nos.</a>
+    <a class="professores" href="#">Nossos professores estão à disposição</a>
+    <footer class="rodape">Portal de cursos</footer>
+    <button class="botao">Clique aqui para entrar em contato</button>
+    <p>&copy; - direitos reservados</p>
+    </article>
+</body>
+</html>
